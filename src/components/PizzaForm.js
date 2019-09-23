@@ -1,6 +1,7 @@
 import React from "react"
 
-const PizzaForm = () => {
+const PizzaForm = (props) => {
+  console.log("form props", props)
   return(
       <div className="form-row">
         <div className="col-5">
